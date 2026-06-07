@@ -1,0 +1,10 @@
+2025-06-05 08:01:12 INFO  user=alice action=login ip=103.21.244.10 status=success
+2025-06-05 08:03:44 INFO  user=bob action=login ip=103.21.244.11 status=success
+2025-06-05 08:05:01 WARN  user=admin action=login ip=185.220.101.45 status=failed
+2025-06-05 08:05:03 WARN  user=admin action=login ip=185.220.101.45 status=failed
+2025-06-05 08:05:05 WARN  user=admin action=login ip=185.220.101.45 status=failed
+2025-06-05 08:06:22 INFO  user=alice action=download ip=103.21.244.10 status=success
+2025-06-05 08:07:10 INFO  user=bob action=logout ip=103.21.244.11 status=success
+2025-06-05 08:09:00 INFO  user=root action=login ip=91.108.4.15 status=success
+2025-06-05 08:11:30 INFO  user=alice action=delete_all ip=103.21.244.10 status=success
+2025-06-05 08:12:00 INFO  user=root action=export_db ip=91.108.4.15 status=success
