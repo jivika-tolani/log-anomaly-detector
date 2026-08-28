@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log-anomaly-detector"
+version = "0.1.0"
+description = "CLI tool that scans log files for failed-login bursts, off-hours access, and privilege escalation indicators."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jivika Tolani" }]
+
+[project.scripts]
+log-anomaly-detector = "log_anomaly_detector.cli:run"
+
+[tool.setuptools.packages.find]
+include = ["log_anomaly_detector*"]
